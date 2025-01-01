@@ -24,9 +24,9 @@ The script uses the GitHub API to fetch and display repository details, such as:
 Make sure you have Python 3.7+ installed. You can download it from the [official Python website](https://www.python.org/downloads/).
 
 ### 2. Required Python Packages
-Install the required Python modules using pip:
+Install the required Python modules using the `requirements.txt` file:
 ```bash
-pip install requests python-dotenv
+pip install -r requirements.txt
 ```
 
 ### 3. GitHub Personal Access Token
@@ -56,7 +56,13 @@ Ensure your `.env` file is excluded from version control by adding it to `.gitig
 ## Usage
 Run the script using Python:
 ```bash
-python script_name.py
+python github_summary.py
+```
+
+## Running Tests
+Run the tests using `pytest`:
+```bash
+pytest
 ```
 The script will output a list of repositories matching the criteria, including their name, description, URL, and creation date.
 
