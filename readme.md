@@ -1,4 +1,4 @@
-# GitHub Repository Filter Script
+# GitHub Repository and Gist Filter Script
 
 This Python script filters and lists public GitHub repositories that:
 - Were **created** in a specified year.
